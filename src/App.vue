@@ -132,7 +132,7 @@ body {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   body {
     header form, main {
       grid-template-columns: repeat(1, 1fr);
