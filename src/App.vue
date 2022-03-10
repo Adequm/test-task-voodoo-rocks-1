@@ -119,7 +119,7 @@ body {
   header {
     form {
       display: grid;
-      grid-auto-columns: minmax(347px, calc((100% - 2rem)/3));
+      grid-auto-columns: minmax(350px, calc((100% - 2rem)/3));
       gap: 1rem;
       justify-content: center;
     }
@@ -127,7 +127,7 @@ body {
 
   main {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(347px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     gap: 1rem;
   }
 }
@@ -135,7 +135,7 @@ body {
 @media screen and (max-width: 768px) {
   body {
     header form, main {
-      grid-auto-columns: 1fr;
+      grid-template-columns: repeat(1, 1fr);
     }
   }
 }
